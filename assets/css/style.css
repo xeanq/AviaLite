@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'nun';
+  src: url(../fonts/Nunito-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'com';
+  src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+body {
+  font-family: 'nun';
+  background-color: #FCF6F6;
+}
+
+.glav-text {
+  font-family: 'com';
+}
+
+.navnav {
+  color: white !important;
+  text-decoration: none;
+  position: relative;
+}
+
+.navnav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.navnav:hover::after {
+  background-color: #fff;
+}
+
+.navbar-nav {
+  background-color: #7AD5FC;
+}
+
+.card{
+  border-radius: 10px !important;
+  transition: 0.8s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.kareir,
+.skills,
+.ya {
+  margin-top: 80px;
+}
+
+.work {
+  margin-top: 50px;
+}
+
+.cvet {
+  color: #7AD5FC;
+}
+
+.fotochel {
+  border: 5px solid #7AD5FC;
+  border-radius: 20px;
+}
+
+.navbar {
+  background-color: #7AD5FC;
+  width: 100%;
+}
+
+.accordion-button {
+  background-color: #7AD5FC;
+}
+
+.show {
+  background-color: #fff;
+}
+
+.navbar-nav .active {
+  margin-left: 20px;
+}
+
+.txt {
+  color: #7AD5FC;
+}
+
+.icon {
+  margin-right: 40px;
+}
+
+h2,
+h3 {
+  color: #7AD5FC;
+}
+
+.slid{
+  height: 500px;
+  width: 800px;
+}
+
+.carousel-item img {
+  display: block;
+  width: 800px;
+  height: 500px !important;
+  margin: 0 auto;
+}
+
+
+
+.fot2 img {
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
+.fot2 {
+  background-color: white;
+}
+
+.needs-validation {
+  margin-bottom: 30px;
+}
+
+@media (max-width:768px) {
+  .slid{
+    height: 350px;
+    width: 600px;
+  }
+
+  .carousel-item {
+    height: 350px !important;
+  }
+
+  .carousel-item img {
+    display: block;
+    margin: 0 auto;
+    height: 100% !important;
+  }
+
+  .txt {
+    font-size: 15px !important;
+  }
+
+  .footer .container-ya img, svg{
+    height: 90px;
+    width: 90px;
+  }
+
+}
+
+@media (max-width:576px) {
+  .slid{
+    height: 250px;
+    width: 450px;
+  }
+
+  .carousel-item {
+    height: 250px !important;
+  }
+
+  .carousel-item img {
+    display: block;
+    margin: 0 auto;
+    height: 100% !important;
+  }
+
+  .txt {
+    font-size: 15px !important;
+  }
+
+  .footer .container-ya img, svg{
+    height: 60px;
+    width: 60px;
+  }
+}
+
+
+.ticket-booking {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-booking h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+.submit-btn:active {
+  background-color: #1c6ea4;
+}
+
+.foo {
+  background-color: #7AD5FC;
+  margin-top: 85px;
+}
